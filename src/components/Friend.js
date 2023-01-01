@@ -1,7 +1,7 @@
 import React from 'react'
 import style from '../css_modules/borderRound.module.css';
 import { characters } from '../utils/constants';
-import { NavLink, useNavigate} from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 
 const Friend = ({ friend, number }) => {
     const navigate = useNavigate();
